@@ -1,0 +1,19 @@
+{
+    "provider":  "Yanbor LLC",
+    "product":  "InterSystems IRIS",
+    "repository":  "DataAILite/DataAI-ETL-InterSystems-IRIS-CustomerReadyEvaluation",
+    "visibility":  "public",
+    "status":  "customer-ready-evaluation",
+    "evaluationLimit":  "less than 32 consecutive calendar days",
+    "productionAuthorized":  false,
+    "package":  "DataAI_ETL_IRIS_Evaluation.zip",
+    "size":  2281412,
+    "sha256":  "f30ff347ab2873d19726e4c3ac0f36d743a66eab9dbaba248b5103e15120725a",
+    "entries":  39,
+    "runtimeBaseline":  {
+                            "java":  "17",
+                            "spark":  "3.5.0",
+                            "scalaBinary":  "2.12"
+                        },
+    "sourceCatalog":  "https://oureports.net/OUReports/DataAIETLmarkets.html"
+}
