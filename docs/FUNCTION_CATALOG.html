@@ -284,7 +284,7 @@ tableau.dashboardMetrics().write()
         .format("delta")
         .mode(SaveMode.Append)
         .saveAsTable("analytics.dataai_dashboard_metrics");</code></pre>
-        <p>See <a href="TABLEAU_OUTPUT_SCHEMA.html">Tableau output schema</a> and <a href="FUNCTION_OUTPUTS_FOR_TABLEAU.html">function-to-Tableau coverage</a>.</p>
+        <p>The Tableau-specific output schema and coverage documentation are distributed separately with DataAI ETL for Tableau.</p>
 
         <h3>InterSystems IRIS adapter</h3>
         <p>Add <code>com.dataai:dataai-spark-iris:0.1.0-SNAPSHOT</code> when DataAI must read from or write approved outputs to InterSystems IRIS. <code>IrisJdbcOptions</code> creates a safe, customer-controlled JDBC configuration; <code>IrisDataFrames</code> provides table, partitioned-table, query, and explicitly invoked writer entry points.</p>
